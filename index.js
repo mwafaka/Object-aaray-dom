@@ -91,18 +91,4 @@ const recipes=[
 ]
 
 
-    const demo =document.getElementById("demo");
-
-    recipes.map(x=>{
-        demo.innerHTML +=`  
-        <div class="m-3 card" style="width: 18rem;">
-  <img src=${x.imageURL} class="card-img-top"  alt="..." style="height: 300px;">
-  <div class="card-body">
-  <h5 class="card-title">${x.name}</h5>
-  <h6>Ingredients:</h6>
-  <ol class="card-text">${x.ingredients.map(x=>`<li>${x.name}</li>`).join('')}</ol>
-  </div>
-  </div>
   
-  `     
-    })
