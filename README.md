@@ -5,4 +5,4 @@
 * Method : map  
 * Style das web wie du willst
    
-* [images](./img.png) zum Tag `img` in der Kopfzeile hinzu.
+* ![images](./img.png) zum Tag `img` in der Kopfzeile hinzu.
